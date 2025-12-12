@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archana Nagraj | Bioinformatics Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            background: #f5f3ff;
+            color: #2d2d2d;
+            background: linear-gradient(135deg, #f3e7ff, #d6e6ff, #ffe7fa);
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            padding: 25px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 700;
+        }
+
+        .bio-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%
+        }
+        nav a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* HERO */
+        .hero {
+            padding: 30px 10%;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            font-weight: 70;
+            color: #4b0082;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 25px;
+            line-height: 1.6;
+        }
+
+        .hero img {
+            width: 260px;
+            border-radius: 50%;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 30px 10%;
+        }
+
+        h2.section-title  {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #4c0082d5;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        /* PROJECTS */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project-box {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 6px solid #6a11cb;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .project-box:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+
+        /* SKILLS */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: #e6f2ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            color: #0a0007c1;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #4b0082;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .icon {
+            width: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="bio.jpeg" alt="Bioinformatics Logo" class="bio-img">
+        <h1>Archana Nagraj</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="hero-text">
+            <h2>AI-Powered Bioinformatics for Genomics, Disease Research, and Prediction</h2>
+            <p>
+                Specializing in AI, deep learning, protein analysis, and molecular neuroscience.
+                I explore protein structure prediction, receptor pathway analysis, and
+                biological movement modeling using computational tools.
+            </p>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="card">
+           <p> Passionate bioinformatics graduate working with AI/ML to study protein structures,
+            ligand–receptor interactions, neurotransmission, and biological movement patterns in rats.
+            My interests extend to genomics,molecular disease mechanisms, and behavior-based biological analysis.
+            Driven to built AI-powered solutions for research in neuroscience and molecular biology.</p>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-box">
+                <h3>Nutrient Deficiency Detection in Banana Plants using CNN</h3>
+                <p>To develop an automated deep learning approach to support early detection of nutrient deficiency in crops for precision agriculture.</p>
+                <p><b>Tools and Libraries:</b> Python, TensorFlow/Keras, Layers, Sequential, Optimizers, Matplotlib, Google colab</p>
+            </div>
+
+            <div class="project-box">
+                <h3>Diabetes Prediction using logistic regression</h3>
+                <p>Built a predictive model to classify patients as diabetic or non-diabetic based on clinical features using logistic regression.</p>
+                <p><b>Tools and Libraries:</b> Python, Pandas, Numpy, Scikit-learn, Matplotlib, Seaborn</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-item">Bioinformatics Tools:BLAST, ClustalOmega, AutoDock Vina ,AlphaFold ,PyMOL , ChimeraX</div>
+            <div class="skill-item"><b>Machine Learning/Deep Learning</b>:  DNA-BERT ,CNNs ,SVM ,Transformers</div>
+            <div class="skill-item"><b>Programming Languages</b>: Python(Numpy, Pandas, Matplotlib, Scikit-learn, PyTorch, Tensorflow, Biopython), C, HTML, SQL, DBMS, Shell</div>
+            <div class="skill-item"><b>Genomics and Proteomics</b>: RNA-seq analysis, FASTA/FASTQ reading, protein structure modelling</div>
+            <div class="skill-item"><b>Databases</b>: UniProt, NCBI, PDB, KEGG, PubChem, Ensembl, AlphaFoldDB, UCSC, Genome Browser, GEO, ClinVar, dbSNP, DrugBank, MGI</div>
+            <div class="skill-item"><b>Cloud Computing</b>: AWS</div>
+            <div class="skill-item"><b>Others</b>: Google Colab, VS Code, Jupyter, Github pages, Git and Github</div>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h2 class="section-title">Education</h2>
+        <div class="card">
+            <p><b>Bachelor of science in Bioinformatics<b></p>
+            <p>Reva University , Bengaluru, India</p>
+        </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+        <h2 class="section-title">Certificates</h2>
+        <div class="card">
+              <p>Bioinformatics algorithms and its applications</p> 
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="card">
+            <p><b>Email:</b> archananagraj21@gmail.com</p>
+            <p><b>Phone:</b> +91 6362719331</p>
+            <p><b>GitHub:</b> <a href="https://github.com/Archana-coder344" target="_blank">Click Here</a></p>
+            <p><b>LinkedIn:</b> <a href="www.linkedin.com/in/archana-nagraj-9859b82b1" target="_blank">Click Here</a></p>
+            <div class="download-box">
+                <a href="https://github.com/Archana-coder344/Archananagraj.github.io/blob/main/Resume%20Archana_Nagraj.pdf" target="_blank">Download My Resume</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Archana Nagraj — Bioinformatics Portfolio
+    </footer>
+
+</body>
+</html>
